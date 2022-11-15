@@ -1,25 +1,11 @@
-# Set up a virtualenv
-# be sure to pip install pandas 
-# and pip install openpyxl
 
 import pandas as pd
+total_loads = pd.read_csv("./final_project/datasets/total_load.csv")
 
 
 
-sheet2 = pd.read_excel("C://Users//Matthew//Documents//GitHub//ISDS-7075-Project//final_project//datasets//dataset.xlsx", sheet_name="temperature_history")
-
-
-"""There are 9 different stations where temperature was collected; the excel files shows data from each of the 9 stations
-for each hour of each day. """
 
 
 
-# Loading data from just station 1 
-# station1 = sheet2.loc[sheet2['station_id'] == 1]
-
-
-
-# for i in sheet2["h1"]:
-#     print(i)
 
 
