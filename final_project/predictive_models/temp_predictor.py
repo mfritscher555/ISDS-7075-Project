@@ -63,3 +63,9 @@ plt.show()
 
 predictions = forecast[["ds", "yhat1"]].tail(7)
 predictions.to_excel("h1_predictions.xlsx")
+
+# Can I write a function that runs this uni-variate regression 24 times?
+
+
+# IDEA: USE XGBOOST AND USE ALL VARIABLES EXCEPT PREDICTOR INCLUDING DUMMIES (THE 9 STATIONS) IN ORDER TO MAKE
+# PREDICTIONS AND LOOP THIS MODEL FOR 24 HOURS, IN ORDER TO OBTAIN THE 7 * 24 * 9 = 1512 TEMPERATURE PREDICTIONS
