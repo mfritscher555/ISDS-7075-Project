@@ -17,4 +17,8 @@ Then use these weights as predictive variables.
 
 Association Rules??
 
+## Note from Dr. Chun
+
+There are 15 towns and cities in the state of Louisiana and 9 weather stations across the state.  The exact names and locations are unknown.  Your goal is to predict the demand for electricity for each town.  Some weather stations are close to the town, whereas others are far away.  Thus, you need to develop multiple regression model, for example.  For example, the electricity demand in Baton Rouge is more related to the temperature in Hammond than the temperature in Shreveport.
+
 
